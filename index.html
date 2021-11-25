@@ -15,16 +15,17 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="gradiente">
-    <nav class="navbar navbar-expand-md navbar-dark shadow">
+<body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark shadow">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">BLESSED</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -46,102 +47,104 @@
                         </ul>
                     </li>
                 </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Texto" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
         </div>
     </nav>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/src/00.png" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/src/01.png" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/src/02.png" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                            <img src="/src/icon_blessed.svg" alt="" class="img-fluid w-75 h-75">
+                        </div>
+                        <div class="item-text">
+                            <span>
+                                BLESSED, nace en el 2021 como un proyecto laboral a las profesiones
+                                de dos amigos en la búsqueda por alcanzar sus sueños y con el propósito
+                                de brindar un servicio de calidad a las personas y sus familias.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="/src/00.png" class="d-block w-100 img-fluid" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/src/01.png" class="d-block w-100 img-fluid" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/src/02.png" class="d-block w-100 img-fluid" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-center align-items-center">
-                        <img src="/src/icon_blessed.svg" alt="" class="img-fluid w-75 h-75">
-                    </div>
-                    <div class="item-text">
-                        <span>
-                            BLESSED, nace en el 2021 como un proyecto laboral a las profesiones
-                            de dos amigos en la búsqueda por alcanzar sus sueños y con el propósito
-                            de brindar un servicio de calidad a las personas y sus familias.
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="card bg-light">
-                    <div class="row">
-                        <div class="col-6">
-                            <img class="card-img img-fluid" src="/src/mission-icon.png" alt="">
-                        </div>
-                        <div class="col-6 centered">
-                            <h5>Nuestra Misión</h5>
-                            <h6>
-                                Ayudar a las personas a mejorar sus vidas ofreciendo soluciones creativas e
-                                innovadoras que resuelvan problemas con respecto al cuidado personal,
-                                donde la atención y servicio al cliente son prioridad.
-                            </h6>
-                        </div>
-                    </div>
+        <section>
+            <div class="row">
+                <div class="col-6">
+                    <img class="card-img img-fluid" src="/src/mission-icon.png" alt="">
+                </div>
+                <div class="col-6 centered">
+                    <h5>Nuestra Misión</h5>
+                    <h6>
+                        Ayudar a las personas a mejorar sus vidas ofreciendo soluciones creativas e
+                        innovadoras que resuelvan problemas con respecto al cuidado personal,
+                        donde la atención y servicio al cliente son prioridad.
+                    </h6>
                 </div>
             </div>
-            <div class="col-12">
-                <div class="card bg-light">
-                    <div class="row">
-                        <div class="col-6 centered">
-                            <h5>Nuestra Visión</h5>
-                            <h6>
-                                Ayudar a las personas a mejorar sus vidas ofreciendo soluciones creativas e
-                                innovadoras que resuelvan problemas con respecto al cuidado personal,
-                                donde la atención y servicio al cliente son prioridad.
-                            </h6>
-                        </div>
-                        <div class="col-6">
-                            <img class="card-img img-fluid" src="/src/vision-icon.png" alt="">
-                        </div>
-                    </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-6 centered">
+                    <h5>Nuestra Visión</h5>
+                    <h6>
+                        Seremos considerados una empresa plenamente humana, líder en el mercado nacional como la cadena
+                        más grande de barberías y tiendas físicas del país e incursionaremos en el mercado internacional
+                        mejorando la vida de miles de personas.
+                    </h6>
+                </div>
+                <div class="col-6">
+                    <img class="card-img img-fluid" src="/src/vision-icon.png" alt="">
                 </div>
             </div>
-            <div class="col-12">
-                <div class="card bg-light">
-                    <div class="row">
-                        <div class="col-6">
-                            <img class="card-img img-fluid" src="/src/values-icon.png" alt="">
-                        </div>
-                        <div class="col-6 centered">
-                            <h5>Nuestros Valores</h5>
-                            <h6>
-                                Ayudar a las personas a mejorar sus vidas ofreciendo soluciones creativas e
-                                innovadoras que resuelvan problemas con respecto al cuidado personal,
-                                donde la atención y servicio al cliente son prioridad.
-                            </h6>
-                        </div>
-                    </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-6">
+                    <img class="card-img img-fluid" src="/src/values-icon.png" alt="">
+                </div>
+                <div class="col-6 centered">
+                    <h5>Nuestros Valores</h5>
+                    <h6>
+                        Respeto - Responsabilidad Social - Honestidad - Puntualidad - Confianza - Gratitud - Pasión -
+                        Propósito - Empatía - Creatividad e Innovación - Trabajo en Equipo
+                    </h6>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
+
+    <h1 style="padding-top: 5rem; padding-bottom: 5rem; text-align: center;">CON ESOS AMIGOS PA QUE ENEMIGOS</h1>
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 
 </html>
