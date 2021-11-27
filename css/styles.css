@@ -1,46 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-section{
+section{    
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-h3{
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 3%;
-    color: #2A3B8A;
+h3 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3%;
+  color: #2a3b8a;
 }
 
-h6{
-    text-align: center;
+h6 {
+  text-align: center;
 }
 
 /* clases */
 
-.navbar, footer{
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.navbar,
+footer {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.item-text{
-    text-align: center;
-    font-weight: bold;
+.item-text {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.centered{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.nav-item{
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+.nav-item {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
